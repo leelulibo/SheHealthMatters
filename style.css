@@ -75,9 +75,10 @@ nav ul li a {
 }
 
 .question {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-bottom: 1px solid white; /* Add border bottom to separate questions */
     padding-bottom: 20px; /* Add some padding to separate questions */
+    text-align: center;
 }
 
 .question h2 {
@@ -87,7 +88,9 @@ nav ul li a {
 .btn {
     display: block;
     width: 200px;
-    margin: 0 auto;
+    margin-left: 27%;
+    margin-bottom: 1px;
+    padding-bottom: 50%;
     background-color: palevioletred;
     color: white;
     text-align: center;
@@ -103,14 +106,14 @@ nav ul li a {
 }
 h1 {
     font-size: 36px;
-    color: white;
+    color: palevioletred;
     font-weight: bold;
     text-transform: uppercase;
 }
 .statement {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
-    margin: 20px;
+    /* margin: 20px; */
 }
