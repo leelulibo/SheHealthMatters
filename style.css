@@ -39,6 +39,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    font-size: medium;
 }
 nav {
     text-align: right; /* Align to the right */
@@ -75,6 +76,7 @@ nav ul li a {
 
 .questions {
     margin-bottom: 50px;
+    font-size: smaller;
 }
 
 .question {
@@ -91,7 +93,7 @@ nav ul li a {
 .btn {
     display: block;
     width: 200px;
-    margin-left: 27%;
+    margin-left: 35%;
     margin-bottom: 1px;
     padding-bottom: 50%;
     background-color: palevioletred;
@@ -178,7 +180,6 @@ h1 {
     bottom: 0;
     width: 100%;
     text-align: center;
-    /* background-color:  #F4CCCC; */
     font-size: medium;
     font-weight: bold;
     font-style: italic;
