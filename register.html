@@ -6,12 +6,53 @@
     <title>Form Validation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     
     <script defer src="./index.js"></script>
 </head>
+<style>
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #F4CCCC;
+    color: white; /* Set text color to white for better readability */
+    height: 100vh; 
+    /* background-image: url(images/bubbles.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+} 
 
+.container{
+    position: relative;
+    width: calc(100%-100px);
+    min-height: calc(100vh - 280px);
+    min-height: 100px;
+    background: rgba(255, 192, 203, 0.1); /* Pinkish color */
+    box-shadow: 0 10px 10px rgba(105, 5, 5, 0.363); /* Shadow color */
+    padding-bottom: 3%;
+    
+}
+
+#form {
+    width: 300px;
+    margin: 6vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+    
+}
+
+
+</style>
 <body>
     <header>
         <!-- <a href="#" class="logo">SheHealthMatters</a>
@@ -51,5 +92,20 @@
             <button type="submit">Sign Up</button>
         </form>
     </div>
+    <footer class="footer">
+        <div>
+            <!-- <h4 class="heading">Contact details</h4> -->
+            <div class="details">
+                <div class="social-media">
+                    <a href="https://www.youtube.com/@Women_In_Tech" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.linkedin.com/in/lulibo-mtampu-707978211" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.googlemail.com/leelulibo@gmai.com" target="_blank"><i class='bx bx-envelope'></i></a>
+                    <a href="https://github.com/leelulibo" target="_blank"><i class='bx bxl-github' ></i></a>
+                    
+                </div>
+                <p>&copy; 2024 SheHealthMatters. All rights reserved.</p>
+    
+        </div>
+    </footer>
 </body>
 </html>
