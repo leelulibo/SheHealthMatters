@@ -30,42 +30,74 @@ body {
     
 } 
 
-.container{
-    position: relative;
-    width: calc(100%-100px);
-    min-height: calc(100vh - 280px);
-    min-height: 100px;
-    background: rgba(255, 192, 203, 0.1); /* Pinkish color */
-    box-shadow: 0 10px 10px rgba(105, 5, 5, 0.363); /* Shadow color */
-    padding-bottom: 3%;
-    
-}
+container {
+            max-width: 800px;
+            /* margin: 0 auto; */
+            padding: 10px;
+            margin-bottom: auto;
+            
+            }
 
-#form {
-    width: 300px;
-    margin: 6vh auto 0 auto;
-    padding: 20px;
-    background-color: whitesmoke;
-    border-radius: 4px;
-    font-size: 12px;
-    
+ul{
+            list-style: none;
+            padding:0;
+            margin: 0 0 0 150px;
+        }
+        
+        li{
+            float: right;
+        }
+        
+        nav a{
+        
+            display: flex;
+            padding: 20px 15px;
+            overflow: hidden;
+            width: 100px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-size: 14px;
+        
+        }
+
+        .logo{
+            position:absolute;
+            margin-top: 0px;
+            display: flex;
+            width: 150px; /* Adjust as needed */
+            height: auto;
+            
+        }
+
+    #form {
+        width: 300px;
+        margin: 6vh auto 0 auto;
+        padding: 20px;
+        background-color: whitesmoke;
+        border-radius: 4px;
+        font-size: 12px;
+        
 }
 
 
 </style>
 <body>
     <header>
-        <!-- <a href="#" class="logo">SheHealthMatters</a>
-        <i class='bx bx-menu' id="menu-icon"></i> -->
-    
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="#">Download App</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!--navbar-->
+               <nav class="navbar" role="navigation" aria-label="main menu">
+                <!--logo-->
+                <img class="logo" src="images/White_And_Black_Modern_Abstract_Beauty_Logo-removebg-preview.png" height="100px"  alt="">
+                <ul class="navbar">
+                    <li><a href="#">Download App</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="home.html">Home</a></li>
+
+                 
+                </ul>
+            </nav>
+  
+      </header>
     <div class="container">
         <form id="form" action="/">
             <h1>Register</h1>

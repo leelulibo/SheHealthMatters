@@ -19,74 +19,125 @@
             
         }
 
-        header {
-            background-color:  #F4CCCC;
-            color: white;
-            padding: 20px;
-            text-align: center;
+        /* header {
+        background-color: #F4CCCC; /* Change background color as needed */
+                /* padding: 0 0 10px 0; /* Adjust padding as needed */
         }
+        /* .header-container {
+            display: flex;
+            align-items: center; /* Vertically center align */
+            /* justify-content: space-between; /* Distribute items evenly */
+            /* max-width: 1200px; */ */
+            /* margin: 0 auto; /* Center the container */
+            /* padding: 2 30px; Adjust padding as needed */
+        } */ */
 
-        nav {
-            text-align: right; /* Align to the right */
-            margin-top: 20px;
-        }
-        nav ul {
-            list-style-type: none;
+        /* .logo img {
+            width: 100px; /* Adjust width as needed */
+            /* height: auto; Maintain aspect ratio */
+        } */ */
+
+
+        /* nav ul {
+            list-style: none;
             margin: 0;
             padding: 0;
-        }
-
+        } */
+/* 
         nav ul li {
-            display: inline;
-            margin-right: 20px;
+            display: inline; */
+            /* margin-right: 20px; Adjust margin as needed */
         }
+/* 
+        nav ul li:last-child { */
+            /* margin-right: 0; Remove margin from the last item */
+        } */
 
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
 
         .container {
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            /* margin: 0 auto; */
+            padding: 10px;
+            margin-bottom: auto;
+            
+            }
+            ul{
+            list-style: none;
+            padding:0;
+            margin: 0 0 0 150px;
+        }
+        
+        li{
+            float: right;
+        }
+        
+        nav a{
+        
+            display: flex;
+            padding: 20px 15px;
+            overflow: hidden;
+            width: 100px;
+            text-decoration: none;
+            color: black;
+            text-align: center;
+            font-size: 14px;
+        
         }
 
+        .logo{
+            position:absolute;
+            margin-top: 0px;
+            display: flex;
+            width: 150px; /* Adjust as needed */
+            height: auto;
+            
+        }
+/* 
         .image-container {
             text-align: left; /* Align to the left */
-            margin-top: 50px;
         }
 
-        .image-container img {
-            max-width: 100%;
+        /* .image-container img { */
+            /* max-width: 100%;
             height: auto;
-        }
-        .logo{
-            font-size: 1.5rem;
-            color: white;
-            font-weight: 600;
-            cursor: default;
+        } */
+         */
+        /* .logo {
+        display: inline-block;
+        padding: 5px; /* Adjust padding as needed */
+        /* margin: 0; Set margin to 0 */
+        /* } */
+        /* .logo img {
+            width: 40%;
+            height: auto;
+            margin-right: 5px;
+            display: flex;
+            justify-content: flex-end;
             text-align: left;
-            margin-right: 100%;
-            margin-top: 100%;
+            margin-right: 100%; */
+            /* margin-top: 10%; */
+    /* } */ */
 
-}
+
     </style>
 </head>
 <body>
     <header>
-        <!-- <a href="#" class="logo">SheHealthMatters</a>
-        <i class='bx bx-menu' id="menu-icon"></i> -->
+        <!--navbar-->
+               <nav class="navbar" role="navigation" aria-label="main menu">
+                <!--logo-->
+                <img class="logo" src="images/White_And_Black_Modern_Abstract_Beauty_Logo-removebg-preview.png" height="100px"  alt="">
+                <ul class="navbar">
+                    <li><a href="#">Download App</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="home.html">Home</a></li>
+
+                 
+                </ul>
+            </nav>
+  
+      </header>
     
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#">Download App</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </nav>
-    </header>
   
     <div class="container">
         <div class="image-container">
