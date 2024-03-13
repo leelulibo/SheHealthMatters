@@ -21,11 +21,29 @@
 
 
         .container {
+            /* display: flex; */
             max-width: 800px;
-            /* margin: 0 auto; */
+            margin: 0 auto;
             padding: 10px;
-            margin-bottom: auto;
+            margin-top: 10%;
             
+            /* align-items: flex-start; */
+            }
+
+            .image-container {
+            margin-left: 50px; /* Adjust the margin to create spacing */
+            }
+
+            /* .image-container img {
+            max-width: 100%;
+            height: auto;
+            } */
+
+            .content-container {
+            flex: 1;
+            max-width: 100%;
+            height: 50%;
+
             }
             ul{
             list-style: none;
@@ -59,10 +77,22 @@
             
         }
         .btn{
-            margin-left: 28%;
+            margin-left: 37%;
             margin-top: 2%;
         }
 
+        .speaker-text {
+        position: absolute;
+        font-size: 40px; /* Adjust the font size as needed */
+        color: palevioletred; /* Adjust the color as needed */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        }
+        span{
+            font-weight: bold;
+        }
 
     </style>
 </head>
@@ -81,21 +111,26 @@
                 </ul>
             </nav>
   
-      </header>
     
   
-    <div class="container">
-        <div class="image-container">
-          
-            <h1>SheHealthMatters</h1>
-            <h3> Your Centralized Hub for Women's Reproductive Health</h3>
+      <div class="container">
+        <div class="content-container">
+          <h1>SheHealthMatters</h1>
+          <h3>Your Centralized Hub for Women's Reproductive Health</h3>
+          <p>Welcome to SheHealthMatters, your ultimate destination for comprehensive information and resources regarding women's reproductive health. From adolescence to menopause and beyond, we provide essential knowledge to empower women to understand and care for their bodies throughout every stage of life.
+          <span style="color: white;" >Explore our menu by downloading our app to learn more about pregnancy, periods, menopause, hygiene, and many more topics related to women's reproductive health.
+          Join our community in prioritizing women's reproductive health because SheHealthMatters.</p></span> 
+          <a href="register.html" class="btn">Register</a>
         </div>
-        <p>Welcome to SheHealthMatters, your ultimate destination for comprehensive information and resources regarding women's reproductive health. From adolescence to menopause and beyond, we provide essential knowledge to empower women to understand and care for their bodies throughout every stage of life.</p>
-        <p>Explore our menu by downloading our app to learn more about pregnancy, periods, menopause, hygiene, and many more topics related to women's reproductive health.</p>
-        <p>Join our community in prioritizing women's reproductive health because SheHealthMatters.</p>
-        <a href="register.html" class="btn">Register</a>
 
-    </div>
+        <!-- <div class="image-container">
+          <img src="images/speaker-removebg-preview.png" alt="Speaker">
+          <strong class="speaker-text">LET'S TALK ABOUT IT!!!</strong>
+
+
+        </div> -->
+      </div>
+      
 
     <footer class="footer">
         <div>
